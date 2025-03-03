@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Configuration
-rtsp_server_url = "rtsp://0.0.0.0:8554/stream"
+rtsp_server_url = "rtsp://192.168.0.162:8554/stream"
 video_device = "/dev/video0"
 
 # Check if ffmpeg is installed
