@@ -1,0 +1,8 @@
+sudo apt update && sudo apt install -y ffmpeg
+
+chmod +x streamCamera.py
+python3 streamCamera.py
+
+
+Access your stream...
+rtsp://<your-pi-ip>:8554/stream
